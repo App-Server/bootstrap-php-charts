@@ -1,0 +1,16 @@
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 95vh;
+}
+
+.main-conteudo {
+    margin-left: 280px;
+}
+/* main conteudo responsivo */
+
+@media (max-width: 1000px) {
+    .main-conteudo {
+        margin-left: 0; /* Altere o valor do margin-left para 0 ou outro valor apropriado para telas menores */
+    }
+}
